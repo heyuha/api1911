@@ -15,3 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get("/hello","TestController@hello");
+Route::get("/wx/token","TestController@wxgettoken");
